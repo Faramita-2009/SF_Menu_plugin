@@ -8,10 +8,10 @@
 <p>电子邮箱：Faramita-2009@outlook.com</p>
 
 <h2>特点：</h2>
-<li>
-  <ol>箱子菜单</ol>
-  <ol>可自定义的侧边栏</ol>
-</li>
+<ol>
+  <li>箱子菜单</li>
+  <li>可自定义的侧边栏</li>
+</ol>
 
 <p>⚠注：此插件大部分由Deepseek完成，已经过Deepseek授权(doge)</p>
 
