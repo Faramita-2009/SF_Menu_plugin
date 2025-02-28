@@ -24,7 +24,7 @@
 <p>Email：Faramita-2009@outlook.com</p>
 
 <h2>Features：</h2>
-<li>
-  <ol>Chest menus</ol>
-  <ol>Customized sidehars and TAB list</ol>
-</li>
+<ol>
+  <ol>Chest menus</li>
+  <ol>Customized sidehars and TAB list</li>
+</ol>
