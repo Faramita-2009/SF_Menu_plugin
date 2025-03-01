@@ -25,6 +25,6 @@
 
 <h2>Features：</h2>
 <ol>
-  <ol>Chest menus</li>
-  <ol>Customized sidehars and TAB list</li>
+  <li>Chest menus</li>
+  <li>Customized sidehars and TAB list</li>
 </ol>
