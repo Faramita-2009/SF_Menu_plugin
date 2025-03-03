@@ -28,3 +28,4 @@
   <li>Chest menus</li>
   <li>Customized sidehars and TAB list</li>
 </ol>
+<p>⚠NOTE:This plugin is almost finished by Deepseek, thanks for help!</p>
