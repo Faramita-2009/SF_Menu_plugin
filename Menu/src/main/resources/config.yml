@@ -1,0 +1,103 @@
+# 定时任务刷新时间（单位：秒）
+refresh-interval: 1
+
+default-world: Lobby
+
+sidebar:
+  title: '&e星&c火&f服务器'
+  content:
+    - '&7%server_time_yyyy.MM.dd%'
+    - '&e欢迎, &f%player_name%'
+    - '&e余额: &f%xconomy_balance%'
+
+tab:
+  header: '&e星&c火&f服务器'
+  footer: '&e延迟: %ping% ms'
+
+menu:
+  title: '&e服务器菜单'
+  items:
+    playerInfo:
+      material: PLAYER_HEAD
+      slot: 13
+      title: "&a玩家信息"
+      lore:
+        - "&e欢迎, &f%player_name%"
+        - "&e余额: &f%vault_balance%"
+      # 可选：设置玩家头颅的皮肤（支持UUID或玩家名）
+      skull-owner: "%player_name%"
+    creative:
+      material: COMPASS
+      slot: 8
+      title: '&a创造模式'
+      lore:
+        - '&7建筑师专用创造'
+      command: 'gamemode creative'
+    signInChest:
+      material: CHEST
+      slot: 9
+      title: '&a每日签到'
+      lore:
+        - '&7领取你的每日礼包'
+      command: 'signin gui'
+    bell:
+      material: BELL
+      slot: 11
+      title: '&e返回主岛'
+      lore:
+        - '&7点击快速返回主岛'
+      command: 'hub'
+    survival:
+      material: GRASS_BLOCK
+      slot: 18
+      title: '&a生存服'
+      lore:
+        - '&7量子传送'
+    goldIngot:
+      material: GOLD_INGOT
+      slot: 18
+      title: '&e查看你的余额'
+      lore:
+        - '&7点击查看你的余额'
+      command: 'money'
+    website:
+      material: PAPER
+      slot: 27
+      title: '&a友情链接'
+      lore:
+        - '&e萌猫云提供技术支持！'
+        - '&f还在苦苦寻求性价比高的游戏服务器？'
+        - '&f不妨点此看看'
+      url: 'https://catscavern.com'
+
+      help-messages:
+        - '&e/menu &f- 打开服务器菜单'
+        - '&e/menu reload &f- 重新加载配置文件'
+        - '&e/menu update &f- 手动更新菜单'
+messages:
+  reload-success: '&a配置文件已重新加载！'
+  update-success: '&a侧边栏和 Tab 菜单已更新！'
+  no-permission: '&c你没有权限执行此命令！'
+  unknown-command: '&c未知命令，请输入 /menu ? 查看帮助。'
+  lobby-world-not-found: '&cLobby 世界未找到！'
+  teleport-to-lobby: '&a已传送回 主大厅！'
+  cooldown-message: "&a飞行冷却中... 剩余: %cooldown%秒"
+
+  hub:
+    location:
+      world: Lobby
+      x: 0.5
+      y: 15
+      z: 0.5
+      yaw: 90
+      pitch: 0
+    double-jump:
+      enabled: true
+      distance: 10
+      height: 5
+      cooldown: 2
+      sound: ENTITY_BAT_TAKEOFF
+    fall-protection:
+      min-y: -30
+      message: "&a差点被虚空娘吞了！"
+    build-protection: true

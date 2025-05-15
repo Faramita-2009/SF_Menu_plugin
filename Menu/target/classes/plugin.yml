@@ -1,0 +1,25 @@
+name: Menu
+version: 1.9.2
+main: org.faramita.menu.Menu
+commands:
+  menu:
+    description: 打开服务器菜单
+    usage: /menu [ ? | reload | update ]
+  hub:
+    description: 传送到大厅或设置大厅位置
+    usage: /hub [set]
+    permission: hub.use
+    permission-message: 你没有权限使用此命令
+api-version: '1.20'
+authors: [ Faramita_2009 ]
+soft depend: [PlaceholderAPI]
+permissions:
+  hub.use:
+    description: 允许使用/hub命令
+    default: true
+  hub.set:
+    description: 允许设置大厅位置
+    default: op
+  hub.build:
+    description: 允许在大厅世界建造
+    default: op
